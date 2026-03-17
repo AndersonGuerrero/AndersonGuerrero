@@ -9,34 +9,45 @@
 - 
 
 ## 2. Contexto
-*[Explica el panorama general. ¿Por qué estamos haciendo esto? ¿Qué problema estamos intentando resolver o qué objetivo buscamos alcanzar?]*
 - **Propósito de la tarea es :** 
 - **Para mejorar:** 
 - **Audiencia/Usuario Final:** 
 - **Situación actual:** 
 - **Genera problemas como:** 
 - **El sistema actual o entorno:** 
+- **El objetivo de esta tarea es \***\*\_\_\_\_\*\*** para mejorar \***\*\_\_\_\_\*\***.** 
 
 ## 3. Requerimientos técnicos
-*[Lista técnica y específicamente qué necesitas que la IA produzca. Lenguajes, frameworks, formatos de salida, estructura esperada del entregable.]*
+
+### Lenguaje / Stack
 - **Framework:** 
 - **Lenguaje:** [Markdown, JSON, Código Python, etc.]
 - **Version minima:**
-  - 
+
+### Arquitectura
+
+Describe patrones o principios a usar.
+
+Ejemplo:
+
+- Clean Architecture
+- Strategy Pattern
+- Dependency Injection
+- Stateless service
+
 
 ## 4. Constraints (Restricciones)
-*[¿Cuales son los límites? ¿Qué cosas NO debe hacer la IA? ¿Hay limitaciones de rendimiento, seguridad o dependencias que no se deben usar?]*
-- **Evitar:** 
-- **Reglas estrictas:**
-  - No usar librerias externas salvo las aprobadas por el equipo.
-  - 
+  - No usar librerías externas salvo las aprobadas por el equipo.
+  - Implementar type hints en todo el código.
+  - Seguir principios SOLID y buenas prácticas del lenguaje.
+  - Separar claramente el dominio, estrategias y servicios principales.
 
 ## 5. Definition of Done (Criterios de Aceptación)(DoD)
     El trabajo se considera terminando cuando:
-    - [El codigo cumple con los estandares de calidad del equipo.] 
-    - [La cobertura de tests es del 80% o superior.] 
-    - [El codigo pasa linters y convenciones de estilos adoptadas por el equipo (ej. fleke8, pep8, black)]
-    - [La documentacion esta actualizada.] 
+    - El codigo cumple con los estandares de calidad del equipo.
+    - La cobertura de tests es del 80% o superior.
+    - El codigo pasa linters y convenciones de estilos adoptadas por el equipo (ej. fleke8, pep8, black).
+    - La documentacion esta actualizada.
 
 ---
 
